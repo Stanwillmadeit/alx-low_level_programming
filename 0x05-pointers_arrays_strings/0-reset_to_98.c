@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update the value of points n to 98
+ * reset_to_98 - update of points n to 98
  *
- * @n: input  
+ * @n: input
  * Return: void
  */
 void reset_to_98(int *n)
