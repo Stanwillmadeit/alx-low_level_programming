@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _atoi - convert a string to an integer
  * @s: the string to use
@@ -13,9 +14,10 @@ int _atoi(char *s)
 	unsigned int result = 0;
 	int sign = 0;
 
-	while (s[counter] !='\0')
+
+	while (s[counter] != '\0')
 	{
-		if (s[count] =='-')
+		if (s[count] == '-')
 			sign++;
 		if (s[counter] >= 48 && s[counter] <= 57)
 		{
