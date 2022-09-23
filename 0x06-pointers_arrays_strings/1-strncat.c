@@ -4,12 +4,12 @@
  * _strncat - concatenates two strings
  * @dest: copy to
  * @src: copy from
- * @n: numbers of chars to be copied
+ * @n: number of chars to be copied
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0; j = 0;
+	int i = 0, j = 0;
 
 	while (*(dest + i) != '\0')
 		i++;
@@ -24,5 +24,3 @@ char *_strncat(char *dest, char *src, int n)
 
 	return (dest);
 }
-
-
